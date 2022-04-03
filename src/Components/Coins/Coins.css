@@ -1,0 +1,14 @@
+.total-coins-content {
+  background-color: aliceblue;
+  position: relative;
+  top: -30px;
+  padding-top: 10vh;
+}
+.total-coin {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  margin: 0px 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}

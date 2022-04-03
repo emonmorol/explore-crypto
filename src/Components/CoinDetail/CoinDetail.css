@@ -1,0 +1,32 @@
+.details-content {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 200px;
+}
+.details-content div {
+  margin: 0px 100px;
+}
+.details-content p {
+  margin: 5px 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .div-one {
+    order: 2;
+  }
+  .div-two {
+    order: 1;
+  }
+  .details-content {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .details-content div {
+    margin: 0px 0px;
+  }
+}

@@ -1,0 +1,27 @@
+.anchors {
+  text-decoration: none;
+  color: #4b5563;
+}
+.coin-card {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+.image-content {
+  width: 40%;
+}
+.image {
+  width: 40%;
+}
+.card-details {
+  margin-right: 25px;
+}
+.card-details p {
+  font-weight: 700;
+}

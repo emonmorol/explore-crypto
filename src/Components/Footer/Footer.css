@@ -1,0 +1,16 @@
+.footer-content {
+  background-color: white;
+  padding: 30px;
+}
+
+.icon-content {
+  display: flex;
+  justify-content: center;
+}
+.icon-content span {
+  margin: 10px 20px;
+  color: #4b5563;
+}
+.copyright {
+  color: rgba(59, 133, 59, 0.773);
+}
