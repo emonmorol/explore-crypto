@@ -17,6 +17,7 @@ const Coins = () => {
     <div className="total-coins-content">
       <div>
         <h1>Available Crypto Coins</h1>
+        <a href="/home">Home</a>
         <small>Total Coins {coins.length}</small>
       </div>
       <div className="total-coin">

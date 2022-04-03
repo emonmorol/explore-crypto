@@ -25,3 +25,10 @@
 .card-details p {
   font-weight: 700;
 }
+
+@media screen and (max-width: 576px) {
+  .coin-card {
+    width: 90%;
+    margin-left: 4%;
+  }
+}

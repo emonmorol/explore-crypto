@@ -14,7 +14,7 @@ const CoinDetail = () => {
   console.log(detail);
   return (
     <div className="details-content">
-      <div className="div-one">
+      <div className="main-detail-content">
         <div>
           <h2>General Info</h2>
           <hr />
@@ -65,7 +65,7 @@ const CoinDetail = () => {
           </p>
         </div>
       </div>
-      <div className="div-two">
+      <div className="detail-image-content">
         <img src={detail.image?.large} alt="" />
       </div>
     </div>

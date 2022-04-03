@@ -14,10 +14,10 @@
 }
 
 @media screen and (max-width: 576px) {
-  .div-one {
+  .main-detail-content {
     order: 2;
   }
-  .div-two {
+  .detail-image-content {
     order: 1;
   }
   .details-content {

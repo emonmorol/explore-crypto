@@ -18,3 +18,18 @@
   font-size: 20px;
   color: #4b5563;
 }
+
+@media screen and (max-width: 576px) {
+  .header-content {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .logo-content {
+    display: none;
+  }
+  .link-content {
+    text-align: center;
+    margin: 0px 50px;
+  }
+}
